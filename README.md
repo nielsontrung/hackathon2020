@@ -18,4 +18,4 @@ hackathon2020
 
 
 
-yushae is a alpha
+yushae is gay
