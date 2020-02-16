@@ -12,21 +12,21 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 <!--         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> -->
-          <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+          <link rel="icon" href="../img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="../css/mdb.min.css">
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
@@ -91,7 +91,7 @@
 </nav>
 <!--/.Navbar-->
 
-<div class="view container-fluid" style="background-image: url(img/background/wallpaper.png); background-size: cover;">
+<div class="view container-fluid img-responsive" style="background-image: url(../img/background/wallpaper.png); background-size: cover;">
   <!-- <div class="container-fluid"> -->
     <!-- Content here -->
     <br>
@@ -105,82 +105,73 @@
     <br>
 
     <!-- Image Container -->
-    <div class="container font-weight-bolder d-flex align-items-center justify-content-center">
-
+    <div class="container font-weight-bolder">
+      <div class="row">
+        <div class="col-8">
           <!-- Image Row 1 -->
-          <div class="row ">
-            <div class="col">
-              <a href="music/index.html"><img src="https://img.icons8.com/color/144/000000/music.png"></a>
-              <h3>Music</h3>    
+          <div class="row text-center">
+            <div class="col text-center">
+              <img src="https://img.icons8.com/color/144/000000/music.png">
+              <h3>Music</h3>
+              
             </div>
             <div class="col">
-              <a href="social/index.html"><img src="https://img.icons8.com/color/144/000000/myspace.png"></a>
+              <img src="https://img.icons8.com/color/144/000000/myspace.png">
               <h3>Social</h3>
             </div>
             <div class="col">
-              <a href="games/index.html"><img src="https://img.icons8.com/color/144/000000/learning.png"></a>
+              <img src="https://img.icons8.com/color/144/000000/learning.png">
               <h3>Games</h3>
             </div>
           </div>
           <!-- Image Row 1 Ends -->
 
           <!-- Image Row 2 -->
-          <div class="row ">
+          <div class="row text-center">
             <div class="col">
-              <a href="nutrition/index.html"><img src="https://img.icons8.com/color/144/000000/apple.png"></a>
+              <img src="https://img.icons8.com/color/144/000000/apple.png">
               <h3>Nutrition</h3>
             </div>
             <div class="col">
-              <a href="medical/index.html"><img src="https://img.icons8.com/color/144/000000/hospital.png"></a>
+              <img src="https://img.icons8.com/color/144/000000/hospital.png">
               <h3>Medical</h3>
             </div>
             <div class="col">
-              <a href="maps/index.html"><img src="https://img.icons8.com/color/144/000000/map-marker.png"></a>
+              <img src="https://img.icons8.com/color/144/000000/map-marker.png">
               <h3>Maps</h3>
             </div>
           </div>
           <!-- Image Row 2 Ends -->
 
-        </div>
-        <!-- Image Container Ends-->
 
-          <br>
-          <br>
-          <br>
-          <br>
+        </div>
 
         <!-- Voice Commands -->
-        <div class="d-flex align-items-center justify-content-center">
-          <div class="w-25">
-            <ul class="list-group">
-              <li class="list-group-item active">
-                <div class="md-v-line"></div><i class="fas fa-laptop mr-4 pr-3"></i> Voice Commands
-              </li>
-              <li class="list-group-item">
-                <div class="md-v-line"></div><i class="fas fa-bomb mr-5"></i>Play Lil Pump
-              </li>
-              <li class="list-group-item">
-                <div class="md-v-line"></div><i class="fas fa-code mr-5"></i>I need to go hospital
-              </li>
-              <li class="list-group-item">
-                <div class="md-v-line"></div><i class="far fa-gem mr-5"></i>Play Musics
-              </li>
-              <li class="list-group-item">
-                <div class="md-v-line"></div><i class="fas fa-cogs mr-5"></i>Open Internet
-              </li>
-            </ul>
-          </div>
+        <div class="col-4 ">
+          <ul class="list-group">
+            <li class="list-group-item active">
+              <div class="md-v-line"></div><i class="fas fa-laptop mr-4 pr-3"></i> Voice Commands
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-bomb mr-5"></i>Play Lil Pump
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-code mr-5"></i>I need to go hospital
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="far fa-gem mr-5"></i>Play Musics
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-cogs mr-5"></i>Open Internet
+            </li>
+          </ul>
         </div>
         <!-- Voice Commands Ends -->
 
-        <br>
-        <br>
-        <br>
-        <br>
+      </div>
       
       
-      
-    
+    </div>
 
 
   </div>
