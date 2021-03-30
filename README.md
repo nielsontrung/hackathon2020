@@ -18,4 +18,3 @@ hackathon2020
 
 
 
-yushae is gay
